@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <script src="../js/bootstrap.bundle.js"></script>
+    <style>
+      .bg-pink {
+        background-color: rgb(244, 159, 201);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="navbar bg-body-secondary">
+            <div class="container-fluid">
+              <a class="navbar-brand fw-bold">E-Library</a>
+              <form class="d-flex" role="search">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="cari disini.."
+                  aria-label="Search"
+                />
+                <button class="btn btn-info" type="submit">cari</button>
+                              <a href="" class="btn btn-success ms-3">Profil</a>
+
+              </form>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-3 min-vh-100">
+          <div class="card bg-pink rounded-0">
+            <img
+              src="../img/alam1.png"
+              width="100"
+              height="100"
+              class="rounded-circle mx-auto mt-3"
+              alt="..."
+            />
+            <div class="card-body text-center">
+              <h5 class="card-title">Cep Azzam</h5>
+              <p class="card-text">Administrator</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <a href="" class="btn btn-info w-75">Dashboard</a>
+              </li>
+              <li class="list-group-item">
+                <a href="" class="nav-link">Data Anggota</a>
+              </li>
+              <li class="list-group-item">
+                <a href="" class="nav-link">Data Buku</a>
+              </li>
+              <li class="list-group-item">
+                <a href="" class="nav-link">Peminjaman</a>
+              </li>
+              <li class="list-group-item">
+                <a href="" class="nav-link">Pengembalian</a>
+              </li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="btn btn-danger">Logout</a>
+               <a href="#" class="btn btn-info">Tentang Aplikasi</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-9">
+          <h3>Dashboard</h3>
+          <hr />
+
+          <div class="container g-0 d-flex justify-content-between">
+            <div class="card text-bg-primary mb-3 col-4">
+              <div class="card-header"><h4>Data Buku</h4></div>
+              <div class="card-body">
+                <h5 class="card-title">500</h5>
+                <p class="card-text">data anggota perpus digital</p>
+                <a href="" class="btn btn-sm btn-danger">Selengkapnya</a>
+              </div>
+            </div>
+            <div class="card text-bg-secondary mb-3 mx-1 col-4">
+              <div class="card-header"><h4>Data Peminjaman</h4></div>
+              <div class="card-body">
+                <h5 class="card-title">400</h5>
+                <p class="card-text">Peminjaman Buku</p>
+                                <a href="" class="btn btn-sm btn-danger">Selengkapnya</a>
+
+              </div>
+            </div>
+            <div class="card text-bg-success mb-3 col-4">
+              <div class="card-header"><h4>Data Pengembalian</h4></div>
+              <div class="card-body">
+                <h5 class="card-title">300</h5>
+                <p class="card-text">Pengembalian Buku</p>
+                                <a href="" class="btn btn-sm btn-danger">Selengkapnya</a>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
